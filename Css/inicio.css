@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.nuevos_modelos{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+.nuevos{
+    margin-top: 30px;;
+    width: 100%;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: center;
+}
+.nuevos p a{
+    text-decoration-line: none;
+    color: rgb(15, 7, 7);
+    text-shadow: 4px 4px 2px rgba(255,255,255,0.6);
+    width: fit-content;
+    /* background: linear-gradient(rgba(127, 255, 212, 0.548),rgba(255, 127, 80, 0.558),rgba(221, 160, 221, 0.58),rgba(240, 230, 140, 0.558) );
+    padding: 10px; */
+    border-radius: 20px;
+}
+
+.nuevos img {
+    width: 240px;
+    height: 240px;
+    border: solid rgb(0, 0, 0) 2px;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+.edades{
+    margin-top: 30px;;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+.edades p a{
+    text-decoration-line: none;
+    color: black;
+    text-shadow: 4px 4px 2px rgba(255,255,255,0.6);
+    width: fit-content;
+    border-radius: 20px;
+}
+
+.edades_dos{
+    width: 100%;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: center;
+}
+
+.edades_dos img{
+    width: 240px;
+    height: 240px;
+    border: solid black 2px;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+.aire{
+    margin-top: 30px;;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+.aire p a{
+    text-decoration-line: none;
+    color: black;
+    text-shadow: 4px 4px 2px rgba(255,255,255,0.6);
+    width: fit-content;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.aire_libre{
+    width: 100%;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: center;
+}
+
+.aire_libre img{
+    width: 240px;
+    height: 240px;
+    border: solid black 2px;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+.mesa{
+    margin-top: 30px;;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+.mesa p a{
+    text-decoration-line: none;
+    color: black;
+    text-shadow: 4px 4px 2px rgba(255,255,255,0.6);
+    width: fit-content;
+    border-radius: 20px;
+}
+
+.juegos_mesa {
+    width: 100%;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: center;
+}
+
+.juegos_mesa img{
+    width: 240px;
+    height: 240px;
+    border: solid black 2px;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+.notificacion{
+    width: 100%;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(255, 0, 0);
+    margin: 50px 0px;
+}
+
+.notificacion label{
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 20px;
+    color: rgb(116, 45, 45);
+}
