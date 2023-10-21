@@ -1,0 +1,49 @@
+.detalles-pag{
+    width: 100vw;
+    min-height: 65vh;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    margin: 30px;
+}
+
+.contenedor-detalles{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.img-detalle{
+    width: 40%;
+}
+
+.img-detalle img{
+    width: 90%;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+.detalles{
+    width: 40%;
+}
+
+.nombre{
+    font-size: 30px;
+    text-decoration-line: underline;
+    font-weight: bolder;
+}
+
+.precio{
+    font-size: 25px;
+    color: red;
+    font-weight: bolder;
+}
+
+.caracteristicas{
+    font-size: 20px;
+}
