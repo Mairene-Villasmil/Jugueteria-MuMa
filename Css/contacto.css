@@ -4,12 +4,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: "AlegreyaSans";
     margin: 20px 0px;
 }
 
-input [type="text"] 
-{
+input [type="text"] {
     background-color: #fbfbfb;
     width: 408px;
     height: 30px;
@@ -49,8 +47,24 @@ textarea {
 }
 
 h1 {
-    font-size: 39px;
-    text-align: letf;
-    padding-bottom: 20px;
-    color: #000000;
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+    text-decoration-line: none;
+    color: black;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 800px) {
+    input {
+        width: 250px;
+    }
+
+    textarea {
+        width: 250px;
+    }
+
+    .botonContacto {
+        width: 250px;
+    }
 }
