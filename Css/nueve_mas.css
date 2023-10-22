@@ -6,3 +6,19 @@ p {
     color: black;
     font-weight: bold;
 }
+
+.nueve-o-mas {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.nueve-o-mas img{
+    width: 250px;
+    height: 250px;
+    border: solid black 2px;
+    border-radius: 20px;
+    margin: 20px 10px;
+}
