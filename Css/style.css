@@ -1,25 +1,25 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
-body{
+body {
     background-image: url(../imagenes/istockphoto-1146450236-640x640.jpg);
     background-size: 100vw 100vh;
     background-attachment: fixed;
 }
 
-header{
+header {
     width: 100%;
     height: 30%;
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     margin-bottom: 30px;
 }
 
-.header_uno{
+.header_uno {
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -27,22 +27,22 @@ header{
     align-items: center;
 }
 
-.logo_nombre img{
+.logo_nombre img {
     width: 100%;
     height: 50px;
 }
 
-.titul_uno img{
-   width: 100%;
-   height: 90px;
+.titul_uno img {
+    width: 100%;
+    height: 90px;
 }
 
-.menu{
+.menu {
     margin-right: 20px;
     font-size: 22px;
 }
 
-nav ul{
+nav ul {
     list-style-type: none;
     font-weight: bolder;
     display: flex;
@@ -56,19 +56,19 @@ nav ul{
     float: left;
 }
 
-.menu>ul>li>a{
+.menu>ul>li>a {
     margin: 10px;
     text-decoration-line: none;
     color: black;
 }
 
-.menu_dos li{
+.menu_dos li {
     font-size: 20px;
     padding: 10px;
 }
 
 .nav-link,
-li{
+li {
     color: black;
     font-size: 20px;
     margin: 0px 10px;
@@ -76,24 +76,24 @@ li{
     z-index: 1000;
 }
 
-.menu_dos li a{
+.menu_dos li a {
     text-decoration-line: none;
     display: block;
     color: black;
 }
 
-.menu li ul{
+.menu li ul {
     display: none;
     position: absolute;
 }
 
 
 
-.menu li ul li{
+.menu li ul li {
     position: relative;
 }
 
-.email{
+.email {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -110,12 +110,12 @@ input {
     margin: 10px;
 }
 
-::placeholder{
+::placeholder {
     font-size: 16px;
     align-items: center;
 }
 
-button{
+button {
     border-radius: 12px;
     font-size: 16px;
     padding: 5px 10px;
@@ -136,14 +136,19 @@ footer ul {
 
 }
 
-footer li a{
+footer li a {
     font-size: 35px;
     margin: 10px 20px 0 0;
     color: black;
 }
 
 @media screen and (max-width: 1000px) {
-    .navbar>.container-fluid{
+
+    input {
+        width: 280px;
+    }
+
+    .navbar>.container-fluid {
         display: flex;
         flex-wrap: inherit;
         align-items: center;
@@ -151,7 +156,7 @@ footer li a{
     }
 
     .nav-link,
-    li{
+    li {
         margin: 3px 0px;
     }
 
